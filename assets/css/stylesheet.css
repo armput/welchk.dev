@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*color: blue;*/
+}
+
+html {
+    padding: 0 15%;
+}
+
+h1, li, a, button {
+    /* Text styles */
+}
+
+h1.title {
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+nav a.hover {
+}
+
+nav a.active {
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 30px 10%;*/
+}

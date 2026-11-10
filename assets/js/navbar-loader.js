@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const placeholder = document.getElementById("navbar-placeholder");
 
-    if (!placeholder) return;
+    // if (!placeholder) return;
 
     fetch("/components/navbar.html")
         .then(response => {
